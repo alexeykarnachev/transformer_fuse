@@ -54,7 +54,7 @@ if __name__ == '__main__':
     in_features = 2048
     out_features = 2048
     batch_size = 128
-    n_reps = 100000
+    n_reps = 200000
     device = 'cuda'
     with torch.no_grad():
         input = torch.randn((batch_size, in_features), device=device)
